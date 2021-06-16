@@ -1,0 +1,37 @@
+body{
+      
+ background-image: url("https://cdn.wallpapersafari.com/78/83/8s9fQZ.jpg");
+ background-size: 1200px 800px;
+}
+
+.main{
+    margin-top: 15vh;
+    display:flex;
+    justify-content: center;
+}
+
+.calc{
+background-color: #eaf4ff;
+border-radius: 7px;
+padding: 7px;
+}
+button{
+   background-color: #36454F;
+   color: #eaf4ff;
+    height: 50px;
+    width: 80px;
+    font-family: 'Orbitron', sans-serif;
+    border-radius: 2px;
+   
+  transition-duration: 0.7s;
+}
+
+button:hover{
+background-color:#161616 ;
+}
+
+
+td,tr{
+    padding: 2.5px;
+}
+
