@@ -17,9 +17,9 @@ window.onload = () => {
 
 setTimeout(() => {
     var cells = document.querySelectorAll('.cell');
-    cells.forEach(cell => {
-        cell.addEventListener('click', () => {
-            cell.classList.toggle('white');
+    cells.forEach(coll => {
+        coll.addEventListener('click', () => {
+            coll.classList.toggle('white');
         });
     }); 
 }, 100);
