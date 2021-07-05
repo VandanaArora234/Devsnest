@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="inner">
+            <h2 class="question">Your Question</h2>
+
+          <ul>
+             <li><input type="radio" name="answer" id="ans1" class="answer"> <!--same name is given to each input so only one option reamins chosen at a time -->
+            <label for="ans1" id="option1">Answer Option</label></li>
+
+        <li><input type="radio" name="answer" id="ans2" class="answer">
+            <label for="ans1" id="option2">Answer Option</label></li>
+
+        <li><input type="radio" name="answer" id="ans3" class="answer">
+            <label for="ans1" id="option3">Answer Option</label></li>
+
+        <li> <input type="radio" name="answer" id="ans4" class="answer">
+            <label for="ans1" id="option4">Answer Option</label></li>
+
+            <button id="submit">Submit!</button>
+            <div class="scoreArea" id=showScore></div>
+        </ul>
+
+        </div>
+    </div>
+
+
+    <script src="quiz.js"></script>
+</body>
+</html>
