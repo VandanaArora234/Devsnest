@@ -10,6 +10,7 @@ function App()
         <div className="app">
         <Card />
         <Board />
+        
         </div>
     );
 }

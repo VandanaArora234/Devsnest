@@ -40,6 +40,6 @@ img{
 }
 
 
-.row:nth-child(odd) .col:nth-child(even), .row:nth-child(even) .col:nth-child(odd) {
+.row:nth-child(odd) .col:nth-child(even) , .row:nth-child(even) .col:nth-child(odd) {
 	background: white;
 }
