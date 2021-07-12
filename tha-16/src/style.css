@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+img{
+    height: 300px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.app{
+    min-height: 100vh;
+    width:100vw;
+    display: flex;
+}
+
+.card{
+    border: 1px solid rgb(55, 88, 87);
+    display: inline-block;
+    padding: 10px 20px;
+    margin: auto 50% auto 5%;
+    /* box-shadow: 8px 8px 2px 1px rgba(0, 0, 255, .2); */
+    box-shadow: inset 18em 16em gold;
+}
+
+.col{
+    background-color: black;
+    width: 40px;
+    height: 40px;
+}
+.row{
+    display: flex;
+}
+.chess-board{
+    margin: auto 0% auto -25%;
+    border:2px solid black ;
+}
+
+
+.row:nth-child(odd) .col:nth-child(even), .row:nth-child(even) .col:nth-child(odd) {
+	background: white;
+}
