@@ -1,0 +1,54 @@
+
+body{
+  background-image: url("https://images.unsplash.com/photo-1548123378-bde4eca81d2d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZGFuY2VyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");
+  height: 100vh;
+
+  
+}
+
+.heading{
+  color:#FFBCBC;
+}
+
+.App{
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  width: 100vw;
+ 
+}
+
+div .container {
+  display: block;
+}
+
+.container{
+  height:400px ;
+  width: 500px;
+  padding: 10px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  box-shadow: 2px 3px 9px -1px #000;
+}
+
+.Card {
+  width: 90%;
+  background: #FFBCBC;
+  padding: 5px;
+  margin: 6px;
+  border-radius: 5px;
+  box-shadow: 3px 1px 9px -1px #3d581a;
+  color: #053742;
+}
+
+.title{
+  display: inline-block;
+}
+
+.dlt{
+  
+ float:right;
+}
+.dlt:hover {
+  transform: scale(1.2);
+}
