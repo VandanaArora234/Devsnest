@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import { saveAs } from 'file-saver'
 
  const Meme=({meme, setMeme})=>
 {
@@ -56,6 +56,9 @@ import { useState } from "react";
      <button onClick={()=>{
          setMeme(null);
      }}>Choose Template</button>
+
+
+      <button onClick={ ()=> {saveAs(meme.url, 'image.jpg')}}>Download Meme</button>
 
 
         </div>
