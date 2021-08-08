@@ -22,7 +22,7 @@ const useAray = (init) => {
             })
         }),
 
-        allclr: useCallback(() => setBullet([]))
+        allclr: useCallback(() => setBullet([])),
     }
 
 

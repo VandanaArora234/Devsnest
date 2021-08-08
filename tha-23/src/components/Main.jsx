@@ -23,7 +23,7 @@ const Main = () => {
                         addTodo.add(value);
                         setValue(" ")
                     }}>
-                        Add todo
+                        Add
                     </Button>
 
 
