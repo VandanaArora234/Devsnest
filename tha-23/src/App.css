@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body{
+    background-image: url('https://i.pinimg.com/originals/3b/71/08/3b7108cf36def9d10a1bf7703670a16f.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1300px 1050px;
+}
+h3{
+    margin-left:250px;
+    margin-top: 50px;
+    color: rgba(26, 26, 31, 0.411);
+    font-size: 20px;
+    padding: 4px;
+
+}
+li{
+list-style: none;
+margin-left: 50px;
+padding: 3px;
+font-size:20px;
+}
+.paper{
+
+ margin-top: 15%;
+
+}
+
