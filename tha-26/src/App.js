@@ -1,6 +1,5 @@
-import './App.css';
 import {useSelector, useDispatch} from 'react-redux';
-import { setUsername, setEmail } from './actions/index.';
+import { setUsername, setEmail } from './actions';
 import { Container, Paper, TextField, Button } from '@material-ui/core';
 import { useState } from 'react';
 
